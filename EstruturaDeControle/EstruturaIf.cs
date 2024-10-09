@@ -20,12 +20,17 @@ namespace CursoCSharp.EstruturaDeControle
 
             double media = (nota1 + nota2 + nota3) / 3;
 
-            if(media >= 7)
+            if (media >= 7)
             {
-                Console.WriteLine("Você não é uma pessoa leiga, Sua nota é"+media);
-            } else
+                Console.WriteLine("Você não é uma pessoa leiga, Sua nota é" + media);
+            }
+            else if (media > 4)
             {
-                Console.WriteLine("Você é leigo. Peça ajuda para o Pedro H.S. Sua nota é "+media);
+                Console.WriteLine("Você é uma pessoa leiga, Sua nota é"+ media);
+            }
+            else
+            {
+                Console.WriteLine("Você é leigo. Peça ajuda para o Pedro H.S. Sua nota é " + media);
             }
         }
     
