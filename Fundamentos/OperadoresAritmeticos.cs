@@ -6,27 +6,21 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.Fundamentos
 {
-    class OperadoresAritmeticos { 
-    public static void Executar() {
+    class OperadoresAritmeticos
+    {
+        public static void Executar()
+        {
 
-        
-        
-        
-
-
-
-
-          /* 
-            Console.WriteLine("Digite um numero:");
+            Console.WriteLine("Digite um número ?");
             int n1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite outro numero:");
+            Console.WriteLine("Digite um número ");
             int n2 = int.Parse(Console.ReadLine());
 
             int soma = n1 + n2;
 
-            Console.WriteLine("A soma foi de: \n"+soma);
-        */
+            Console.WriteLine($"A soma total foi de ${soma}");
+           
         }
     }
 }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos
-{
-    class PrimeiroPrograma { 
-    public static void Executar() {
+namespace CursoCSharp.Fundamentos {
+    class PrimeiroPrograma {
+
+       public static void Executar() {
             Console.WriteLine("Meu primeiro programa");
         }
     }

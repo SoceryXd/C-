@@ -8,24 +8,12 @@ namespace CursoCSharp.EstruturasDeRepeticao
 {
     class EstruturaFor
     {
-        public static void Executar ()
+        public static void Executar()
         {
-            int resultado = 0;
-
-            for (int contador = 0; contador <= 10; contador++)
+            for(int contador = 1; contador <= 10; contador++)
             {
-                Console.WriteLine("Digite um numero:");
-                int.TryParse(Console.ReadLine(), out int numero);
-
-                resultado += numero;
-
-                //resultado = numero + numero
-
+                Console.WriteLine(contador);
             }
-
-            Console.WriteLine("A soma é de:" + resultado);
-
-
         }
     }
 }

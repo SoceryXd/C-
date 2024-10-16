@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
-using CursoCSharp.EstruturaDeControle;
+using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.EstruturasDeRepeticao;
+using CursoCSharp.ClassesEMetodos;
+
 
 namespace CursoCSharp {
     class Program {
@@ -13,18 +14,18 @@ namespace CursoCSharp {
                 {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar},
                 {"Notação Ponto - Fundamentos",NotacaoPonto.Executar},
                 {"Lendo Dados - Fundamentos",LendoDados.Executar},
-                {"Operadores aritméticos - Fundamentos",OperadoresAritmeticos.Executar},
-                {"Exercicios - Fundamentos",Exercicios.Executar},
-                {"Estrutura If -  Estrutura de Controle",EstruturaIf.Executar},
-                {"Estrutura de Controles -  Fundamentos",OperadoresEAtribuições.Executar },
-                {"Exercicio de If Else - Fundamento" ,ExercicioIf.Executar },
-                {"Exercicio de If Else Senha - Fundamentos",ExercicioSenha.Executar},
-                {"Exercicio de If Else Eleição - Fundamentos",ExercicioEleicao.Executar },
-                {"Estruturas do Switch - Fundamentos",EstruturasSwitch.Executar },
-                {"Exercicio do Switch - Fundamento",ExercicioSwitch.Executar},
-                {"Estrutura while - estrutura de Repetição",EstruturaWhile.Executar},
-                {"Estrutura for - estrutura de repetução",EstruturaFor.Executar },
-                {"Estrutura for e each - estrutura de repetição",EstruturaForIt.Executar },
+                {"Operadores Aritméticos - Fundamentos",OperadoresAritmeticos.Executar},
+                {"Estrutura If - Estruturas de Controle",EstruturaIf.Executar },
+                {"Operadores de Atribuição - Estruturas de Controle",OperadoresAtribuicao.Executar },
+                {"Estrutura Switch - Estruturas de Controle",EstruturaSwitch.Executar},
+                {"Estrutura While - Estruturas de Repetição",EstruturaWhile.Executar },
+                {"Estrutura For - Estruturas de Repetição",EstruturaFor.Executar},
+                {"Estrutura ForEach - Estruturas de Repetição",EstruturaForEach.Executar},
+                {"Membros - Classes e Métodos",Membros.Executar },
+                {"Contrutores - Classes e Métodos",Construtores.Executar},
+                {"Metodos com Retornos - Classes e Métodos",MetodosComRetorno.Executar },
+                {"Atividade Metodos - Classes e Métodos",AtividadeMetodo.Executar }
+
 
             });
 

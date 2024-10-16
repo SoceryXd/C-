@@ -6,28 +6,31 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.EstruturasDeRepeticao
 {
-    class EstruturaWhile { 
-    public static void Executar ()
+    class EstruturaWhile
+    {
+        public static void Executar()
         {
             /*
-              int contador = 1;
-
-              while (contador <= 10)
-              {
-                  Console.WriteLine(contador);
-                  contador++;
-              }
-              */
-
             int contador = 1;
-            Console.WriteLine("Quer contar até quando?");
-            int.TryParse(Console.ReadLine(), out int valor);
 
-            while (contador <= valor)
+            while (contador <= 10)
             {
                 Console.WriteLine(contador);
-                contador++; 
+                contador++;
             }
+            */
+
+            int contador = 1;
+            Console.WriteLine("Quer contar até quanto?");
+            int.TryParse(Console.ReadLine(), out int valor);
+
+            while(contador <= valor)
+            {
+                Console.WriteLine(contador);
+                contador++;
+            }
+            
+
 
         }
     }
