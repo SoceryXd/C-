@@ -24,7 +24,9 @@ namespace CursoCSharp {
                 {"Membros - Classes e Métodos",Membros.Executar },
                 {"Contrutores - Classes e Métodos",Construtores.Executar},
                 {"Metodos com Retornos - Classes e Métodos",MetodosComRetorno.Executar },
-                {"Atividade Metodos - Classes e Métodos",AtividadeMetodo.Executar }
+                {"Atividade Metodos - Classes e Métodos",AtividadeMetodo.Executar },
+                {"Get Set - Classes e Metodos",GetSet.Executar},
+                {"Get Set segundo Exemplo - Classes e Métodos",GetSet2.Executar}
 
 
             });

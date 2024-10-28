@@ -28,7 +28,7 @@ namespace CursoCSharp.ClassesEMetodos
             var conversor = new Conversor();
 
            
-            double valorEmReais = 2540.0;
+            double valorEmReais = 55.0;
             double cotacaoDolar = 5.0;  
             double valorEmDolares = conversor.ConverterRealParaDolar(valorEmReais, cotacaoDolar);
             Console.WriteLine($"{valorEmReais.ToString()} reais equivalem a {valorEmDolares.ToString()} dólares.");
@@ -37,7 +37,7 @@ namespace CursoCSharp.ClassesEMetodos
           
             double grausCelsius = 25.0;
             double grausFahrenheit = conversor.ConverterCelsiusParaFahrenheit(grausCelsius);
-            Console.WriteLine($"{grausCelsius} graus Celsius equivalem a {grausFahrenheit} graus Fahrenheit.");
+            Console.WriteLine($"{grausCelsius.ToString()} graus Celsius equivalem a {grausFahrenheit.ToString()} graus Fahrenheit.");
         }
     }
 }
